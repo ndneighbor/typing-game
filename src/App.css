@@ -1,10 +1,12 @@
 .App {
   text-align: center;
+  font-family: monospace;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+  color: blue
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -35,4 +37,17 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+.Character {
+  white-space: pre;
+}
+
+.Character-current {
+  background-color: #8db3ff;
+}
+
+.Character-out {
+  color: silver
 }
